@@ -38,6 +38,7 @@ const Login = (props) => {
       await provider.request({
         method: "eth_requestAccounts",
       });
+
       setIsConnecting(false);
       props.onLogin(provider);
     }

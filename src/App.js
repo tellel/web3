@@ -11,7 +11,7 @@ function App() {
   const [chainId, setChainId] = useState(null);
   const [web3, setWeb3] = useState(null);
   // const [userBalance, setUserBalance] = useState(null);
-  const [ethBalance, setEthBalance] = useState("");
+  const [ethBalance, setEthBalance] = useState(null); // = useState("")
 
   const NETWORKS = {
     1: "Ethereum Main Network",
